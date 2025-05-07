@@ -25,19 +25,19 @@ public class Smartphone extends Prodotto{
     }
 
 
-    protected int getImeiProdotto(){
+    public int getImeiProdotto(){
         return this.imeiProdotto;
     }
 
-    protected int getGigabytesProdotto(){
+    public int getGigabytesProdotto(){
         return this.gigabyteProdotto;
     }
 
-    protected void setImeiProdotto(int imei){
+    public void setImeiProdotto(int imei){
         this.imeiProdotto = imei;
     }
 
-    protected void getGigabytesProdotto(int gigabytes){
+    public void getGigabytesProdotto(int gigabytes){
         this.gigabyteProdotto = gigabytes;
     }
     

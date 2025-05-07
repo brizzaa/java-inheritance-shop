@@ -32,43 +32,43 @@ public class Prodotto {
     }
 
 
-    protected int getCodiceProdotto(){
+    public int getCodiceProdotto(){
         return this.codiceProdotto;
     }
 
-    protected String getNomeProdotto(){
+    public String getNomeProdotto(){
         return this.nomeProdotto;
     }
 
-    protected String getMarcaProdotto(){
+    public String getMarcaProdotto(){
         return this.marcaProdotto;
     }
 
-    protected double getPrezzoProdotto(){
+    public double getPrezzoProdotto(){
         return this.prezzoProdotto;
     }
 
-    protected double getIvaProdotto(){
+    public double getIvaProdotto(){
         return this.ivaProdotto;
     }
 
-    protected void setCodiceProdotto(int codice){
+    public void setCodiceProdotto(int codice){
         this.codiceProdotto = codice;
     }
 
-    protected void setNomeProdotto(String nome){
+    public void setNomeProdotto(String nome){
         this.nomeProdotto = nome;   
     }
 
-    protected void setMarcaProdotto(String marca){
+    public void setMarcaProdotto(String marca){
         this.marcaProdotto = marca;
     }
 
-    protected void setPrezzoProdotto(double prezzo){
+    public void setPrezzoProdotto(double prezzo){
         this.prezzoProdotto = prezzo;
     }
 
-    protected void setPrezzoProdotto(int iva){
+    public void setPrezzoProdotto(int iva){
         this.ivaProdotto = iva;
     }
 

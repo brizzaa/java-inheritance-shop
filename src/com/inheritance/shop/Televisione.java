@@ -23,19 +23,19 @@ public class Televisione extends Prodotto{
 
     }
 
-    protected void setSmartProdotto(boolean smart){
+    public void setSmartProdotto(boolean smart){
         this.smartProdotto = smart;
     }
 
-    protected void setDimensioni(double dimensioni){
+    public void setDimensioni(double dimensioni){
         this.dimensioniProdotto = dimensioni;
     }
 
-    protected boolean getSmartProdotto(){
+    public boolean getSmartProdotto(){
         return this.smartProdotto;
     }
 
-    protected double getDimensioniProdotto(){
+    public double getDimensioniProdotto(){
         return this.dimensioniProdotto;
     }
 
